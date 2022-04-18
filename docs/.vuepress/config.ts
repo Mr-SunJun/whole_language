@@ -56,13 +56,17 @@ export default defineUserConfig<DefaultThemeOptions>({
                 text: 'Group',
                 children: [
                     {
-                        text: 'SubGroup',
+                        text: 'Java',
                         children: ['/group/sub/foo.md', '/group/sub/bar.md','/group/sub/bar.md','/group/sub/bar.md'],
                     },
                     {
-                        text: 'SubGroup',
+                        text: 'Python',
                         children: ['/group/sub/foo.md', '/group/sub/bar.md','/group/sub/bar.md','/group/sub/bar.md'],
                     },
+                    {
+                        text: 'Vue',
+                        children: ['/group/sub/foo.md', '/group/sub/bar.md','/group/sub/bar.md','/group/sub/bar.md'],
+                    }
                 ],
             },
 
